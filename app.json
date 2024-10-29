@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Outage-finder",
+    "slug": "outage-finder",
+    "scheme": "outage-finder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Energex-logo.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Energex-logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/faEnergex-logo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
